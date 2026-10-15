@@ -1,0 +1,125 @@
+/* Tira os espaços extras que o navegador coloca */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f0e8;
+  line-height: 1.6; /* deixa o texto mais espaçado e fácil de ler */
+}
+
+/* Topo */
+header {
+  background-color: #1c2012;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  border-bottom: 4px solid #c8a24a; /* linha dourada embaixo */
+}
+
+header p {
+  color: #c8a24a;
+  font-size: 14px;
+}
+
+/* Menu */
+nav {
+  background-color: #4b5a2a;
+  text-align: center;
+  padding: 12px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  padding-bottom: 4px;
+}
+
+/* Quando passa o mouse no menu, aparece uma linha dourada */
+nav a:hover {
+  border-bottom: 2px solid #c8a24a;
+}
+
+/* Conteúdo no meio da página */
+main {
+  width: 800px;
+  max-width: 100%;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+/* Caixa verde com a foto */
+.destaque {
+  background-color: #6b7a3a;
+  color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* sombra */
+}
+
+.destaque h2 {
+  text-align: center;
+  color: #f0d78c;
+  margin-bottom: 20px;
+}
+
+.destaque img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover; /* corta a foto sem esticar */
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Título dos serviços */
+.titulo {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  color: #4b5a2a;
+}
+
+/* Lista de serviços */
+.servicos {
+  list-style: none; /* tira as bolinhas */
+}
+
+.servicos li {
+  background-color: white;
+  border-left: 5px solid #c8a24a;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Rodapé */
+footer {
+  background-color: #1c2012;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin-top: 40px;
+  border-top: 4px solid #c8a24a;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #c8a24a;
+}
+
+footer a:hover {
+  color: white;
+}
+
+.copy {
+  font-size: 13px;
+  color: #aaa;
+}
